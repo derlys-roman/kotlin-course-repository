@@ -4,16 +4,21 @@ class Piramide {
             listOf(1, 3),
             listOf(3, 5),
             listOf("stranger"),
-            listOf("null"))
+            listOf("null")
+    )
 
     fun printedACollections() {
+        exampleCollection.add(listOf("adicionado"))
+
         for (listOf in exampleCollection) println(listOf)
     }
-    fun experimentsOfInternet(){
-        repeat(23){
+
+    fun experimentsOfInternet() {
+        repeat(23) {
 
             println("this is a example $inteiro")
             inteiro++
         }
     }
+
 }
